@@ -1,0 +1,19 @@
+#[START tf-init]
+- id: 'tf init'
+  name: 'hashicorp/terrafrom:1.0.0'
+  args: ['init']
+#[END tf int]
+
+
+#[START TF plan]
+- id: 'tf plan'
+  name: 'hashicorp/terrafrom:1.0.0'
+  args: ['plan']
+#[END tf plan]
+
+
+#[START tf apply]
+- id: 'tf apply'
+  name: 'hashicorp/terrafrom:1.0.0'
+  args: ['apply', '-auto-approve']
+#[END tf apply]
