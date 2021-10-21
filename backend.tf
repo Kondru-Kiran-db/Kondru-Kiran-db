@@ -1,6 +1,6 @@
 terraform {
 backend "gcs"{
-bucket="tfstate-dev1-cso-sec-playground-18bc"
+bucket="dev1-cso-sec-playground-18bc_cloudbuild"
 prefix="sandbox/state"
 }
 }
